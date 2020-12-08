@@ -1,8 +1,8 @@
 <?php
 	# user input sample:
-	# Webapp url: https://www.github.com 
-	# Sample wordlist: D:\newxampp\htdocs\bruteForcer\wordlist.txt
-	# sample status code : 302, 200
+	# Webapp url: "https://www.github.com" 
+	# Sample wordlist: "'https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt'"
+	# sample status code add by comma separated: 302, 200
 	
 	//taking input from the user
 	$webUrl = (string)readline('Enter Webapp url: '); 
